@@ -1,0 +1,276 @@
+{
+  "broad_pcb_lucknow": {
+    "category": "PCB",
+    "requested_subcategory": null,
+    "subcategory_matched": false,
+    "matched_subcategory": null,
+    "requested_state": "Uttar Pradesh",
+    "requested_city": "Lucknow",
+    "match_level": "city",
+    "matched_states": [
+      "Uttar Pradesh"
+    ],
+    "matched_cities": [
+      "Lucknow"
+    ],
+    "pricing_date": "2026-09-05",
+    "as_of_date": "2026-09-05",
+    "freshness_days": 0,
+    "freshness_band": "fresh",
+    "unit": "per_kg",
+    "unit_resolution": "only_available_unit",
+    "quantity": 5.0,
+    "total_weight_kg": 12.5,
+    "pricing_channel": "authorized",
+    "informal_rate_inr": 347.5,
+    "mandi_rate_inr": 405.0,
+    "authorized_rate_inr": 435.0,
+    "recommended_rate_inr": 435.0,
+    "rate_q10_inr": 122.5,
+    "rate_q25_inr": 192.5,
+    "rate_q75_inr": 910.0,
+    "rate_q90_inr": 1575.0,
+    "rate_iqr_inr": 717.5,
+    "relative_iqr": 1.649,
+    "spread_level": "high",
+    "market_rate_min_inr": 93.5,
+    "market_rate_max_inr": 1650.0,
+    "range_method": "broad_category_10th_to_90th_percentile_with_market_range",
+    "calculation_basis": "total_weight_kg × recommended_rate_inr",
+    "estimated_value_inr": 5437.5,
+    "estimated_value_min_inr": 1168.75,
+    "estimated_value_max_inr": 20625.0,
+    "data_points_used": 16,
+    "direct_material_evidence_ratio": 1.0,
+    "uses_synthetic_data": true,
+    "quote_quality_score": 57,
+    "estimate_quality": "broad-or-fallback-estimate",
+    "warnings": [
+      "Broad image category used. Different material grades/subcategories can have materially different prices.",
+      "Matched rates have high internal variation; treat the displayed value as a broad estimate.",
+      "Location/date prices are synthetic scenario estimates derived from material baselines; independent live-market verification is required for production use."
+    ],
+    "material_evidence_levels": [
+      "DIRECT",
+      "DIRECT_RANGE"
+    ],
+    "material_source_names": [
+      "MetalMandi",
+      "TradeIndia Ghaziabad listings"
+    ],
+    "verification_statuses": [
+      "Synthetic - requires independent market verification"
+    ],
+    "data_sources": [
+      "Synthetic scenario generated from material baselines and configured location/date factors"
+    ],
+    "suggested_authorized_buyers": [
+      "Karo Sambhav UP Aggregation Partner"
+    ]
+  },
+  "specific_pcb_lucknow": {
+    "category": "PCB",
+    "requested_subcategory": "Desktop PCB - Single Chip",
+    "subcategory_matched": true,
+    "matched_subcategory": "Desktop PCB - Single Chip",
+    "requested_state": "Uttar Pradesh",
+    "requested_city": "Lucknow",
+    "match_level": "city",
+    "matched_states": [
+      "Uttar Pradesh"
+    ],
+    "matched_cities": [
+      "Lucknow"
+    ],
+    "pricing_date": "2026-09-05",
+    "as_of_date": "2026-09-05",
+    "freshness_days": 0,
+    "freshness_band": "fresh",
+    "unit": "per_kg",
+    "unit_resolution": "only_available_unit",
+    "quantity": 5.0,
+    "total_weight_kg": 12.5,
+    "pricing_channel": "authorized",
+    "informal_rate_inr": 550.0,
+    "mandi_rate_inr": 640.0,
+    "authorized_rate_inr": 695.0,
+    "recommended_rate_inr": 695.0,
+    "rate_q10_inr": 695.0,
+    "rate_q25_inr": 695.0,
+    "rate_q75_inr": 695.0,
+    "rate_q90_inr": 695.0,
+    "rate_iqr_inr": 0.0,
+    "relative_iqr": 0.0,
+    "spread_level": "low",
+    "market_rate_min_inr": 520.0,
+    "market_rate_max_inr": 730.0,
+    "range_method": "matched_subcategory_market_range",
+    "calculation_basis": "total_weight_kg × recommended_rate_inr",
+    "estimated_value_inr": 8687.5,
+    "estimated_value_min_inr": 6500.0,
+    "estimated_value_max_inr": 9125.0,
+    "data_points_used": 1,
+    "direct_material_evidence_ratio": 1.0,
+    "uses_synthetic_data": true,
+    "quote_quality_score": 80,
+    "estimate_quality": "strong-prototype-estimate",
+    "warnings": [
+      "Location/date prices are synthetic scenario estimates derived from material baselines; independent live-market verification is required for production use."
+    ],
+    "material_evidence_levels": [
+      "DIRECT"
+    ],
+    "material_source_names": [
+      "MetalMandi"
+    ],
+    "verification_statuses": [
+      "Synthetic - requires independent market verification"
+    ],
+    "data_sources": [
+      "Synthetic scenario generated from material baselines and configured location/date factors"
+    ],
+    "suggested_authorized_buyers": [
+      "Karo Sambhav UP Aggregation Partner"
+    ]
+  },
+  "pcb_ghaziabad_state_fallback": {
+    "category": "PCB",
+    "requested_subcategory": null,
+    "subcategory_matched": false,
+    "matched_subcategory": null,
+    "requested_state": "Uttar Pradesh",
+    "requested_city": "Ghaziabad",
+    "match_level": "state",
+    "matched_states": [
+      "Uttar Pradesh"
+    ],
+    "matched_cities": [
+      "Lucknow"
+    ],
+    "pricing_date": "2026-09-05",
+    "as_of_date": "2026-09-05",
+    "freshness_days": 0,
+    "freshness_band": "fresh",
+    "unit": "per_kg",
+    "unit_resolution": "only_available_unit",
+    "quantity": 5.0,
+    "total_weight_kg": 12.5,
+    "pricing_channel": "authorized",
+    "informal_rate_inr": 347.5,
+    "mandi_rate_inr": 405.0,
+    "authorized_rate_inr": 435.0,
+    "recommended_rate_inr": 435.0,
+    "rate_q10_inr": 122.5,
+    "rate_q25_inr": 192.5,
+    "rate_q75_inr": 910.0,
+    "rate_q90_inr": 1575.0,
+    "rate_iqr_inr": 717.5,
+    "relative_iqr": 1.649,
+    "spread_level": "high",
+    "market_rate_min_inr": 93.5,
+    "market_rate_max_inr": 1650.0,
+    "range_method": "broad_category_10th_to_90th_percentile_with_market_range",
+    "calculation_basis": "total_weight_kg × recommended_rate_inr",
+    "estimated_value_inr": 5437.5,
+    "estimated_value_min_inr": 1168.75,
+    "estimated_value_max_inr": 20625.0,
+    "data_points_used": 16,
+    "direct_material_evidence_ratio": 1.0,
+    "uses_synthetic_data": true,
+    "quote_quality_score": 47,
+    "estimate_quality": "broad-or-fallback-estimate",
+    "warnings": [
+      "Broad image category used. Different material grades/subcategories can have materially different prices.",
+      "Matched rates have high internal variation; treat the displayed value as a broad estimate.",
+      "Exact city was unavailable; state-level fallback pricing was used.",
+      "Location/date prices are synthetic scenario estimates derived from material baselines; independent live-market verification is required for production use."
+    ],
+    "material_evidence_levels": [
+      "DIRECT",
+      "DIRECT_RANGE"
+    ],
+    "material_source_names": [
+      "MetalMandi",
+      "TradeIndia Ghaziabad listings"
+    ],
+    "verification_statuses": [
+      "Synthetic - requires independent market verification"
+    ],
+    "data_sources": [
+      "Synthetic scenario generated from material baselines and configured location/date factors"
+    ],
+    "suggested_authorized_buyers": [
+      "Karo Sambhav UP Aggregation Partner"
+    ]
+  },
+  "mobile_lucknow": {
+    "category": "MOBILE_TABLETS",
+    "requested_subcategory": null,
+    "subcategory_matched": false,
+    "matched_subcategory": null,
+    "requested_state": "Uttar Pradesh",
+    "requested_city": "Lucknow",
+    "match_level": "city",
+    "matched_states": [
+      "Uttar Pradesh"
+    ],
+    "matched_cities": [
+      "Lucknow"
+    ],
+    "pricing_date": "2026-09-05",
+    "as_of_date": "2026-09-05",
+    "freshness_days": 0,
+    "freshness_band": "fresh",
+    "unit": "per_piece",
+    "unit_resolution": "only_available_unit",
+    "quantity": 3.0,
+    "total_weight_kg": 1.5,
+    "pricing_channel": "authorized",
+    "informal_rate_inr": 245.0,
+    "mandi_rate_inr": 285.0,
+    "authorized_rate_inr": 307.5,
+    "recommended_rate_inr": 307.5,
+    "rate_q10_inr": 33.32,
+    "rate_q25_inr": 44.75,
+    "rate_q75_inr": 761.25,
+    "rate_q90_inr": 1440.0,
+    "rate_iqr_inr": 716.5,
+    "relative_iqr": 2.33,
+    "spread_level": "high",
+    "market_rate_min_inr": 25.21,
+    "market_rate_max_inr": 1505.0,
+    "range_method": "broad_category_10th_to_90th_percentile_with_market_range",
+    "calculation_basis": "quantity × recommended_rate_inr",
+    "estimated_value_inr": 922.5,
+    "estimated_value_min_inr": 75.63,
+    "estimated_value_max_inr": 4515.0,
+    "data_points_used": 8,
+    "direct_material_evidence_ratio": 1.0,
+    "uses_synthetic_data": true,
+    "quote_quality_score": 57,
+    "estimate_quality": "broad-or-fallback-estimate",
+    "warnings": [
+      "Broad image category used. Different material grades/subcategories can have materially different prices.",
+      "Matched rates have high internal variation; treat the displayed value as a broad estimate.",
+      "Location/date prices are synthetic scenario estimates derived from material baselines; independent live-market verification is required for production use."
+    ],
+    "material_evidence_levels": [
+      "DIRECT",
+      "DIRECT_RANGE"
+    ],
+    "material_source_names": [
+      "Kabadiwalla Uncle + Kabadiwala Online",
+      "Scrap Mitra",
+      "Scrap Savvy + Kabadiwala Online"
+    ],
+    "verification_statuses": [
+      "Synthetic - requires independent market verification"
+    ],
+    "data_sources": [
+      "Synthetic scenario generated from material baselines and configured location/date factors"
+    ],
+    "suggested_authorized_buyers": [
+      "Karo Sambhav UP Aggregation Partner"
+    ]
+  }
+}
